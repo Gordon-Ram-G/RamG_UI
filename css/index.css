@@ -1,0 +1,94 @@
+@font-face {
+    font-family: "Jalnan";
+    src : url("font/Jalnan.ttf") format("truetype");
+}
+
+.top_bar{
+    position: fixed;
+    width: 100%;
+    height: 17%;
+    border-bottom: 15px solid rgba(0, 0, 0, 0.3);
+}
+.home_name{
+    float: left;
+    font-family: 'Jalnan';
+    font-size: 70px;
+    margin-top: 15%;
+    margin-left: 10%;
+}
+.user_profile{
+    float: right;
+    margin-top: 100px;
+    margin-right: 100px;
+}
+
+#profile_image{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+
+#user_nickname{
+    margin-top: 50px;
+    font-size: 75px;
+    font-family: 'Jalnan';
+}
+body{
+    background-color: rgba(200, 210, 200, 0.5);
+    position : absolute;
+    bottom : 0;
+    width: 100%;
+    height: 100%;
+    border-top: 3px solid black;
+}
+
+footer{
+    position: fixed;
+    bottom : 0;
+    width: 100%;
+    height: 10%;
+    border-top: 15px solid rgba(0, 0, 0, 0.3);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.footer_btn{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+#home_btn, #myprofile_btn{
+    width: 40%;
+    height: 100%;
+    font-family: 'Jalnan';
+    font-size: 50px;
+    border-radius: 15%;
+    border: none;
+    background-color: beige;
+    box-shadow: 25px 25px 15px rgba(50, 50, 93, 0.3);
+}
+#home_btn{
+    margin-right: 10%;
+}
+
+.scroll_part{
+    position: absolute;
+    top:30%;
+    overflow-y:auto;
+    overflow-x:hidden; 
+    width:98%; 
+    height:56%;
+    font-family: 'Jalnan';
+    font-size: 50px;
+    border: 5px solid black;
+}
+
+.scroll_element{ /* 이부분은 리스트 원소들에 대해 classList에 추가해주도록 하자*/
+ border-bottom: 5px solid black;   
+ width: 100%;
+ height: 15%;
+}
+
